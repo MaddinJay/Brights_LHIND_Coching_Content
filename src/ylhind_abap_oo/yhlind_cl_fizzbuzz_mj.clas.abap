@@ -18,7 +18,7 @@ CLASS yhlind_cl_fizzbuzz_mj IMPLEMENTATION.
     ELSEIF iv_number = 2.
       rt_fizzbuzz = VALUE z007_fizzbuzz( ( z_input = 1 z_output = '1' )
                                          ( z_input = 2 z_output = '2' ) ).
-    ELSEIF iv_number = 3.
+    ELSEIF iv_number = 5.
       rt_fizzbuzz = VALUE z007_fizzbuzz( ( z_input = 1 z_output = '1' )
                                          ( z_input = 2 z_output = '2' )
                                          ( z_input = 3 z_output = '3' ) ).
